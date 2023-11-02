@@ -23,6 +23,5 @@ it('test Komtakt oss',()=>{
     cy.contains('Erik Borse')
     cy.contains('Svein Kibsgaard')
     
-     
- 
+      
 });
