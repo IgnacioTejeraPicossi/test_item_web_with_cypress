@@ -16,7 +16,7 @@ it('Backend utvikler click',()=>{
   //Item dekker din master
 
   cy.get(':nth-child(3) > .linker-arrow').click();
-  cy.contains('Noe har gått galt'); //error
-  //cy.contains('Item dekker din master')
+  //cy.contains('Noe har gått galt'); //error
+  cy.contains('Mastergrad')
   
 } )
