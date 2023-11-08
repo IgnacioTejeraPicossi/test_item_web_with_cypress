@@ -1,7 +1,19 @@
 it('my first Item.no test',()=>{
-    cy.visit('/')
-    cy.contains('Velkommen til Item');
- 
+
+   
+   cy.eyesOpen();
+    appName: 'cypress-basics-tau';
+
+   
+   cy.visit('/');
+   cy.eyesCheckWindow();
+
+  
+   cy.contains('Velkommen til Item');
+   cy.eyesClose();
+
+
+
     /* Darkmode */
  
  

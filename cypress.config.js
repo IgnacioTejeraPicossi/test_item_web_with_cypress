@@ -15,3 +15,6 @@ module.exports = defineConfig({
     defaultCommandTimeout: 6000
   },
 });
+
+
+require('@applitools/eyes-cypress')(module);
