@@ -12,9 +12,8 @@ module.exports = defineConfig({
     //viewportWidth: 660,
     viewportWidth: 1220,
     experimentalStudio: true,
-    defaultCommandTimeout: 6000
+    defaultCommandTimeout: 6000,
   },
-});
-
+})
 
 require('@applitools/eyes-cypress')(module);

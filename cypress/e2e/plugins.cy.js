@@ -11,8 +11,8 @@ it('plugins',()=>{
  
     cy.visit('/')
     cy.contains('Velkommen til Item');
-    //cy.get('.header-button-darkmode')
-    //.should('be.visible')
+    cy.get('.header-button-darkmode')
+    .should('be.visible');
      
     cy.eyesCheckWindow();
      

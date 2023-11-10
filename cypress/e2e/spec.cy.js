@@ -1,4 +1,4 @@
-it('my first Item.no test',()=>{
+it('my Item.no test',()=>{
 
    
    cy.eyesOpen();
