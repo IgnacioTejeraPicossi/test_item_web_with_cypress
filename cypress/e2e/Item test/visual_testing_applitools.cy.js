@@ -1,4 +1,5 @@
 const { Eyes, Target } = require('@applitools/eyes-cypress');
+//Applitools need revision
 
 describe('Visual Testing Example', () => {
   it('should display a webpage', () => {
