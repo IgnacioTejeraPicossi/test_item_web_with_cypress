@@ -12,7 +12,8 @@ module.exports ={
     // If you don't explicitly set the API key here,
     // then the SDK will automatically read the `APPLITOOLS_API_KEY` environment variable to fetch it.
     apiKey: 'APPLITOOLS_API_KEY',
-    //apiKey: "OzBWbmi104ObpfDPL2uGsEZk2zZIb5ttVa6IA0apQzs1s110",
+    apiKey: "OzBWbmi104ObpfDPL2uGsEZk2zZIb5ttVa6IA0apQzs1s110",
+    //APPLITOOLS_API_KEY:"OzBWbmi104ObpfDPL2uGsEZk2zZIb5ttVa6IA0apQzs1s110",
 
     // A batch is the collection of visual checkpoints for a test suite.
     // Batches are displayed in the Eyes Test Manager, so use meaningful names.
