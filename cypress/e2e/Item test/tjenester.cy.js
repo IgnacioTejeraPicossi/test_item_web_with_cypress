@@ -4,9 +4,9 @@ it('Tjenester option',()=>{
 
 
    /* ==== Tjenester  ==== */
-   cy.get('.richtext > :nth-child(1) > [href="/tjenester"]').click();
    cy.contains('Tjenester');
+   cy.get('.richtext > :nth-child(1) > [href="/tjenester"]').click();
+    
    cy.contains('Universell utforming');
-
 
 } )
